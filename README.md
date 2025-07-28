@@ -28,3 +28,34 @@
     code ~/Repos/datafun-05-sql
     ``` 
     to launch VS Code (previously installed on MAC) to open/edit/execute code related to this project.
+
+## SQL Schemas
+    For this project, I'll implement 2 tables to help manage students' grades
+
+    CREATE TABLE Students (
+    student_id INTEGER PRIMARY KEY AUTOINCREMENT,
+    first_name TEXT NOT NULL,
+    last_name TEXT NOT NULL,
+    email TEXT UNIQUE
+);
+
+CREATE TABLE Grades (
+    grade_id INTEGER PRIMARY KEY AUTOINCREMENT,
+    student_id INTEGER NOT NULL,
+    subject TEXT NOT NULL,
+    score REAL NOT NULL,
+    FOREIGN KEY (student_id) REFERENCES Students(student_id)
+);
+
+
+Explanation
+Students Table:
+     student_id: This column serves as the primary key and automatically increments, ensuring each student has a unique identifier.
+    first_name: Stores the student's first name, required (NOT NULL).
+    last_name: Stores the student's last name, also required.
+    email: Stores the student's email address and is set to be unique (UNIQUE), preventing duplicate email entries.
+Grades Table:
+    grade_id: The primary key for the grades table, automatically incrementing.
+    student_id: This column is a foreign key, establishing a relationship with the Students table. It links a grade to a specific student. The FOREIGN KEY (student_id) REFERENCES Students(student_id) clause ensures data integrity, meaning you can't enter a grade for a non-existent student.
+    subject: Stores the name of the subject the grade is for.
+    score: Stores the numerical grade, defined as a real number (REAL) to accommodate decimal grades.
