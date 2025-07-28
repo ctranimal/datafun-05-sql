@@ -35,14 +35,15 @@ if __name__ == "__main__":
     logger.info(f"Global vars PROCESSED_DIR: {utils_project03.PROCESSED_DIR}") 
 
     current_directory = os.getcwd()
-    subfolder_path = os.path.join(current_directory, "sql_create")
+    subfolder_path_for_db= os.path.join(current_directory, "database")
+    subfolder_path_for_sqlscripts= os.path.join(current_directory, "sql_create")
     #file_path = os.path.join(subfolder_path, "01_drop_tables.sql")
     #file_path = os.path.join(subfolder_path, "02_create_tables.sql")
-    file_path = os.path.join(subfolder_path, "03_insert_records.sql")
+    file_path = os.path.join(subfolder_path_for_sqlscripts, "03_insert_records.sql")
     logger.info(f"Subfolder Path: {subfolder_path}")
     logger.info(f"File Path: {file_path}")
 
-    db_file_path = os.path.join(subfolder_path, "tran_project05_database.db")
+    db_file_path = os.path.join(subfolder_path_for_db, "tran_project05_database.db")
      
     conn = sqlite3.connect(db_file_path) # for SQLite
     cursor = conn.cursor()
