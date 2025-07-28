@@ -37,7 +37,8 @@ if __name__ == "__main__":
     current_directory = os.getcwd()
     subfolder_path = os.path.join(current_directory, "sql")
     #file_path = os.path.join(subfolder_path, "01_drop_tables.sql")
-    file_path = os.path.join(subfolder_path, "02_create_tables.sql")
+    #file_path = os.path.join(subfolder_path, "02_create_tables.sql")
+    file_path = os.path.join(subfolder_path, "03_insert_records.sql")
     logger.info(f"Subfolder Path: {subfolder_path}")
     logger.info(f"File Path: {file_path}")
 

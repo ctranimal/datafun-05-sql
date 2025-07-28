@@ -60,3 +60,76 @@
 2025-07-28 10:39:56.495 | INFO     | __main__:<module>:41 - Subfolder Path: /Users/canhtran/Repos/datafun-05-sql/sql
 2025-07-28 10:39:56.495 | INFO     | __main__:<module>:42 - File Path: /Users/canhtran/Repos/datafun-05-sql/sql/02_create_tables.sql
 2025-07-28 10:39:56.498 | INFO     | __main__:<module>:58 - db01_setup complete.
+2025-07-28 10:48:30.674 | INFO     | utils_logger:<module>:41 - Logging to file: logs/project_log.log
+2025-07-28 10:48:30.675 | INFO     | __main__:<module>:32 - Starting db01_setup ...
+2025-07-28 10:48:30.675 | INFO     | utils_project03:set_globalvars_for_data_folders_empty:42 -  * set_globalvars_for_data_folders_empty() is called
+2025-07-28 10:48:30.675 | INFO     | __main__:<module>:34 - Global vars FETCHED_DATA_DIR: example_data
+2025-07-28 10:48:30.675 | INFO     | __main__:<module>:35 - Global vars PROCESSED_DIR: tran_processed
+2025-07-28 10:48:30.675 | INFO     | __main__:<module>:42 - Subfolder Path: /Users/canhtran/Repos/datafun-05-sql/sql
+2025-07-28 10:48:30.675 | INFO     | __main__:<module>:43 - File Path: /Users/canhtran/Repos/datafun-05-sql/sql/02_insert_records.sql
+2025-07-28 10:49:02.328 | INFO     | utils_logger:<module>:41 - Logging to file: logs/project_log.log
+2025-07-28 10:49:02.328 | INFO     | __main__:<module>:32 - Starting db01_setup ...
+2025-07-28 10:49:02.328 | INFO     | utils_project03:set_globalvars_for_data_folders_empty:42 -  * set_globalvars_for_data_folders_empty() is called
+2025-07-28 10:49:02.328 | INFO     | __main__:<module>:34 - Global vars FETCHED_DATA_DIR: example_data
+2025-07-28 10:49:02.328 | INFO     | __main__:<module>:35 - Global vars PROCESSED_DIR: tran_processed
+2025-07-28 10:49:02.329 | INFO     | __main__:<module>:42 - Subfolder Path: /Users/canhtran/Repos/datafun-05-sql/sql
+2025-07-28 10:49:02.329 | INFO     | __main__:<module>:43 - File Path: /Users/canhtran/Repos/datafun-05-sql/sql/03_insert_records.sql
+2025-07-28 10:50:01.454 | INFO     | utils_logger:<module>:41 - Logging to file: logs/project_log.log
+2025-07-28 10:50:01.455 | INFO     | __main__:<module>:32 - Starting db01_setup ...
+2025-07-28 10:50:01.455 | INFO     | utils_project03:set_globalvars_for_data_folders_empty:42 -  * set_globalvars_for_data_folders_empty() is called
+2025-07-28 10:50:01.455 | INFO     | __main__:<module>:34 - Global vars FETCHED_DATA_DIR: example_data
+2025-07-28 10:50:01.455 | INFO     | __main__:<module>:35 - Global vars PROCESSED_DIR: tran_processed
+2025-07-28 10:50:01.455 | INFO     | __main__:<module>:42 - Subfolder Path: /Users/canhtran/Repos/datafun-05-sql/sql
+2025-07-28 10:50:01.455 | INFO     | __main__:<module>:43 - File Path: /Users/canhtran/Repos/datafun-05-sql/sql/03_insert_records.sql
+2025-07-28 17:13:12.084 | INFO     | utils_logger:<module>:41 - Logging to file: logs/project_log.log
+2025-07-28 17:13:12.085 | INFO     | __main__:<module>:32 - Starting db01_setup ...
+2025-07-28 17:13:12.085 | INFO     | utils_project03:set_globalvars_for_data_folders_empty:42 -  * set_globalvars_for_data_folders_empty() is called
+2025-07-28 17:13:12.085 | INFO     | __main__:<module>:34 - Global vars FETCHED_DATA_DIR: example_data
+2025-07-28 17:13:12.085 | INFO     | __main__:<module>:35 - Global vars PROCESSED_DIR: tran_processed
+2025-07-28 17:13:12.086 | INFO     | __main__:<module>:42 - Subfolder Path: /Users/canhtran/Repos/datafun-05-sql/sql
+2025-07-28 17:13:12.086 | INFO     | __main__:<module>:43 - File Path: /Users/canhtran/Repos/datafun-05-sql/sql/01_drop_tables.sql
+2025-07-28 17:13:12.094 | INFO     | __main__:<module>:59 - db01_setup complete.
+2025-07-28 17:14:02.377 | INFO     | utils_logger:<module>:41 - Logging to file: logs/project_log.log
+2025-07-28 17:14:02.377 | INFO     | __main__:<module>:32 - Starting db01_setup ...
+2025-07-28 17:14:02.377 | INFO     | utils_project03:set_globalvars_for_data_folders_empty:42 -  * set_globalvars_for_data_folders_empty() is called
+2025-07-28 17:14:02.378 | INFO     | __main__:<module>:34 - Global vars FETCHED_DATA_DIR: example_data
+2025-07-28 17:14:02.378 | INFO     | __main__:<module>:35 - Global vars PROCESSED_DIR: tran_processed
+2025-07-28 17:14:02.378 | INFO     | __main__:<module>:42 - Subfolder Path: /Users/canhtran/Repos/datafun-05-sql/sql
+2025-07-28 17:14:02.378 | INFO     | __main__:<module>:43 - File Path: /Users/canhtran/Repos/datafun-05-sql/sql/02_create_tables.sql
+2025-07-28 17:14:02.382 | INFO     | __main__:<module>:59 - db01_setup complete.
+2025-07-28 17:14:46.939 | INFO     | utils_logger:<module>:41 - Logging to file: logs/project_log.log
+2025-07-28 17:14:46.939 | INFO     | __main__:<module>:32 - Starting db01_setup ...
+2025-07-28 17:14:46.939 | INFO     | utils_project03:set_globalvars_for_data_folders_empty:42 -  * set_globalvars_for_data_folders_empty() is called
+2025-07-28 17:14:46.939 | INFO     | __main__:<module>:34 - Global vars FETCHED_DATA_DIR: example_data
+2025-07-28 17:14:46.939 | INFO     | __main__:<module>:35 - Global vars PROCESSED_DIR: tran_processed
+2025-07-28 17:14:46.939 | INFO     | __main__:<module>:42 - Subfolder Path: /Users/canhtran/Repos/datafun-05-sql/sql
+2025-07-28 17:14:46.940 | INFO     | __main__:<module>:43 - File Path: /Users/canhtran/Repos/datafun-05-sql/sql/03_insert_records.sql
+2025-07-28 17:15:44.651 | INFO     | utils_logger:<module>:41 - Logging to file: logs/project_log.log
+2025-07-28 17:15:44.651 | INFO     | __main__:<module>:32 - Starting db01_setup ...
+2025-07-28 17:15:44.652 | INFO     | utils_project03:set_globalvars_for_data_folders_empty:42 -  * set_globalvars_for_data_folders_empty() is called
+2025-07-28 17:15:44.652 | INFO     | __main__:<module>:34 - Global vars FETCHED_DATA_DIR: example_data
+2025-07-28 17:15:44.652 | INFO     | __main__:<module>:35 - Global vars PROCESSED_DIR: tran_processed
+2025-07-28 17:15:44.652 | INFO     | __main__:<module>:42 - Subfolder Path: /Users/canhtran/Repos/datafun-05-sql/sql
+2025-07-28 17:15:44.652 | INFO     | __main__:<module>:43 - File Path: /Users/canhtran/Repos/datafun-05-sql/sql/03_insert_records.sql
+2025-07-28 17:16:15.041 | INFO     | utils_logger:<module>:41 - Logging to file: logs/project_log.log
+2025-07-28 17:16:15.041 | INFO     | __main__:<module>:32 - Starting db01_setup ...
+2025-07-28 17:16:15.041 | INFO     | utils_project03:set_globalvars_for_data_folders_empty:42 -  * set_globalvars_for_data_folders_empty() is called
+2025-07-28 17:16:15.041 | INFO     | __main__:<module>:34 - Global vars FETCHED_DATA_DIR: example_data
+2025-07-28 17:16:15.041 | INFO     | __main__:<module>:35 - Global vars PROCESSED_DIR: tran_processed
+2025-07-28 17:16:15.041 | INFO     | __main__:<module>:42 - Subfolder Path: /Users/canhtran/Repos/datafun-05-sql/sql
+2025-07-28 17:16:15.042 | INFO     | __main__:<module>:43 - File Path: /Users/canhtran/Repos/datafun-05-sql/sql/03_insert_records.sql
+2025-07-28 17:17:37.403 | INFO     | utils_logger:<module>:41 - Logging to file: logs/project_log.log
+2025-07-28 17:17:37.403 | INFO     | __main__:<module>:32 - Starting db01_setup ...
+2025-07-28 17:17:37.404 | INFO     | utils_project03:set_globalvars_for_data_folders_empty:42 -  * set_globalvars_for_data_folders_empty() is called
+2025-07-28 17:17:37.404 | INFO     | __main__:<module>:34 - Global vars FETCHED_DATA_DIR: example_data
+2025-07-28 17:17:37.404 | INFO     | __main__:<module>:35 - Global vars PROCESSED_DIR: tran_processed
+2025-07-28 17:17:37.404 | INFO     | __main__:<module>:42 - Subfolder Path: /Users/canhtran/Repos/datafun-05-sql/sql
+2025-07-28 17:17:37.404 | INFO     | __main__:<module>:43 - File Path: /Users/canhtran/Repos/datafun-05-sql/sql/03_insert_records.sql
+2025-07-28 17:18:44.938 | INFO     | utils_logger:<module>:41 - Logging to file: logs/project_log.log
+2025-07-28 17:18:44.938 | INFO     | __main__:<module>:32 - Starting db01_setup ...
+2025-07-28 17:18:44.938 | INFO     | utils_project03:set_globalvars_for_data_folders_empty:42 -  * set_globalvars_for_data_folders_empty() is called
+2025-07-28 17:18:44.939 | INFO     | __main__:<module>:34 - Global vars FETCHED_DATA_DIR: example_data
+2025-07-28 17:18:44.939 | INFO     | __main__:<module>:35 - Global vars PROCESSED_DIR: tran_processed
+2025-07-28 17:18:44.939 | INFO     | __main__:<module>:42 - Subfolder Path: /Users/canhtran/Repos/datafun-05-sql/sql
+2025-07-28 17:18:44.939 | INFO     | __main__:<module>:43 - File Path: /Users/canhtran/Repos/datafun-05-sql/sql/03_insert_records.sql
+2025-07-28 17:18:44.943 | INFO     | __main__:<module>:59 - db01_setup complete.
