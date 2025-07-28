@@ -1,0 +1,6 @@
+2025-07-28 09:00:30.409 | INFO     | utils_logger:<module>:41 - Logging to file: logs/project_log.log
+2025-07-28 09:00:30.410 | INFO     | __main__:<module>:30 - Starting db01_setup ...
+2025-07-28 09:00:30.411 | INFO     | utils_project03:set_globalvars_for_data_folders_empty:42 -  * set_globalvars_for_data_folders_empty() is called
+2025-07-28 09:00:30.411 | INFO     | __main__:<module>:32 - Global vars FETCHED_DATA_DIR: example_data
+2025-07-28 09:00:30.411 | INFO     | __main__:<module>:33 - Global vars PROCESSED_DIR: tran_processed
+2025-07-28 09:00:30.411 | INFO     | __main__:<module>:35 - db01_setup complete.
