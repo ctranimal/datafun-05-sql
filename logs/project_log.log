@@ -291,3 +291,26 @@
 2025-07-29 08:34:38.572 | INFO     | __main__:execute_sql_file:43 - Executed: /Users/canhtran/Repos/datafun-05-sql/sql_create/03_insert_records.sql
 2025-07-29 08:34:38.572 | INFO     | __main__:main:89 - Database setup completed successfully.
 2025-07-29 08:34:38.572 | INFO     | __main__:main:94 - Database connection closed.
+2025-07-29 08:45:28.934 | INFO     | utils_logger:<module>:41 - Logging to file: logs/project_log.log
+2025-07-29 08:45:28.935 | INFO     | __main__:main:51 - Starting feature queries execution...
+2025-07-29 08:45:28.935 | INFO     | utils_project:set_globalvars_for_project_folders:49 -  * set_globalvars_for_project_folders() is called, sql_script_folder=sql_features
+2025-07-29 08:45:28.935 | INFO     | __main__:main:55 - Global vars ROOT_DIR: /Users/canhtran/Repos/datafun-05-sql
+2025-07-29 08:45:28.936 | INFO     | __main__:main:56 - Global vars DB_PATH: /Users/canhtran/Repos/datafun-05-sql/database/tran_project05_database.db
+2025-07-29 08:45:28.936 | INFO     | __main__:main:66 - Connected to database: /Users/canhtran/Repos/datafun-05-sql/database/tran_project05_database.db
+2025-07-29 08:45:28.937 | INFO     | __main__:execute_sql_file:39 - Executed: /Users/canhtran/Repos/datafun-05-sql/sql_features/delete_records.sql
+2025-07-29 08:45:28.937 | INFO     | __main__:execute_sql_file:39 - Executed: /Users/canhtran/Repos/datafun-05-sql/sql_features/update_records.sql
+2025-07-29 08:45:28.937 | INFO     | __main__:main:72 - Feature queries execution completed successfully.
+2025-07-29 08:45:28.937 | INFO     | __main__:main:77 - Database connection closed.
+2025-07-29 08:48:31.448 | INFO     | utils_logger:<module>:41 - Logging to file: logs/project_log.log
+2025-07-29 08:48:31.449 | INFO     | __main__:main:51 - Starting feature queries execution...
+2025-07-29 08:48:31.449 | INFO     | utils_project:set_globalvars_for_project_folders:49 -  * set_globalvars_for_project_folders() is called, sql_script_folder=sql_queries
+2025-07-29 08:48:31.449 | INFO     | __main__:main:55 - Global vars ROOT_DIR: /Users/canhtran/Repos/datafun-05-sql
+2025-07-29 08:48:31.449 | INFO     | __main__:main:56 - Global vars DB_PATH: /Users/canhtran/Repos/datafun-05-sql/database/tran_project05_database.db
+2025-07-29 08:48:31.449 | INFO     | __main__:main:66 - Connected to database: /Users/canhtran/Repos/datafun-05-sql/database/tran_project05_database.db
+2025-07-29 08:48:31.450 | INFO     | __main__:execute_sql_file:39 - Executed: /Users/canhtran/Repos/datafun-05-sql/sql_queries/query_aggregation.sql
+2025-07-29 08:48:31.450 | INFO     | __main__:execute_sql_file:39 - Executed: /Users/canhtran/Repos/datafun-05-sql/sql_queries/query_filter.sql
+2025-07-29 08:48:31.450 | INFO     | __main__:execute_sql_file:39 - Executed: /Users/canhtran/Repos/datafun-05-sql/sql_queries/query_group_by.sql
+2025-07-29 08:48:31.450 | INFO     | __main__:execute_sql_file:39 - Executed: /Users/canhtran/Repos/datafun-05-sql/sql_queries/query_join.sql
+2025-07-29 08:48:31.451 | INFO     | __main__:execute_sql_file:39 - Executed: /Users/canhtran/Repos/datafun-05-sql/sql_queries/query_sorting.sql
+2025-07-29 08:48:31.451 | INFO     | __main__:main:72 - Feature queries execution completed successfully.
+2025-07-29 08:48:31.451 | INFO     | __main__:main:77 - Database connection closed.

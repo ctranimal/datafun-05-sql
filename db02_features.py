@@ -2,6 +2,10 @@
 Use Python to execute feature queries from the sql_features folder.
 """
 
+#####################################
+# Import Modules
+#####################################
+
 # Imports from Python Standard Library
 import sqlite3
 import os
@@ -9,8 +13,16 @@ import pathlib
 
 # Import local modules
 from utils_logger import logger
+import utils_project
+
+#####################################
+# Declare Global Variables
+#####################################
 
 
+#####################################
+# Define Functions
+#####################################
 def execute_sql_file(connection, file_path) -> None:
     """
     Executes a SQL file using the provided SQLite connection.
@@ -30,29 +42,31 @@ def execute_sql_file(connection, file_path) -> None:
         raise
 
 
+#####################################
+# Main Execution
+#####################################
 def main() -> None:
 
     # Log start of feature execution
     logger.info("Starting feature queries execution...")
 
-    # Define path variables
-    ROOT_DIR = pathlib.Path(__file__).parent.resolve()
-    SQL_FEATURES_FOLDER = ROOT_DIR.joinpath("sql_features")
-    DATA_FOLDER = ROOT_DIR.joinpath("data")
-    DB_PATH = DATA_FOLDER.joinpath('db.sqlite')
+    # call this function to SET global vars ROOT_DIR, DB_PATH
+    utils_project.set_globalvars_for_project_folders("sql_features") 
+    logger.info(f"Global vars ROOT_DIR: {utils_project.ROOT_DIR}")
+    logger.info(f"Global vars DB_PATH: {utils_project.DB_PATH}")  
 
     # Ensure the database file exists before attempting to connect
-    if not DB_PATH.exists():
-        logger.error(f"Database file not found at {DB_PATH}. Ensure the database is created first.")
+    if not utils_project.DB_PATH.exists():
+        logger.error(f"Database file not found at {utils_project.DB_PATH}. Ensure the database is created first.")
         return
 
     # Connect to SQLite database
     try:
-        connection = sqlite3.connect(DB_PATH)
-        logger.info(f"Connected to database: {DB_PATH}")
+        connection = sqlite3.connect(utils_project.DB_PATH)
+        logger.info(f"Connected to database: {utils_project.DB_PATH}")
 
         # Execute all SQL files in the sql_features folder
-        for sql_file in sorted(SQL_FEATURES_FOLDER.glob("*.sql")):
+        for sql_file in sorted(utils_project.SQL_SCRIPT_FOLDER.glob("*.sql")):
             execute_sql_file(connection, sql_file)
 
         logger.info("Feature queries execution completed successfully.")
