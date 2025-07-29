@@ -54,8 +54,8 @@ def main() -> None:
     # Log start of database setup
     logger.info("Starting database setup...")
 
-    # Ensure the data folder where we will put the db exists
-    utils_project.set_globalvars_for_project_folders("sql_create") # call this function to SET global vars FETCHED_DATA_DIR, PROCESSED_DIR
+    # call this function to SET global vars ROOT_DIR, DB_PATH
+    utils_project.set_globalvars_for_project_folders("sql_create") 
     logger.info(f"Global vars ROOT_DIR: {utils_project.ROOT_DIR}")
     logger.info(f"Global vars DB_PATH: {utils_project.DB_PATH}")   
 
