@@ -23,38 +23,65 @@ import utils_project03
 # Define Functions
 #####################################
 
+def execute_sql_file(connection, file_path) -> None:
+    """
+    Executes a SQL file using the provided SQLite connection.
+
+    Args:
+        connection (sqlite3.Connection): SQLite connection object.
+        file_path (str): Path to the SQL file to be executed.
+    """
+    # We know reading from a file can raise exceptions, so we wrap it in a try block
+    # For example, the file might not exist, or the file might not be readable
+    try:
+        with open(file_path, 'r') as file:
+            # Read the SQL file into a string
+            sql_script: str = file.read()
+        with connection:
+            # Use the connection as a context manager to execute the SQL script
+            connection.executescript(sql_script)
+            logger.info(f"Executed: {file_path}")
+    except Exception as e:
+        logger.error(f"Failed to execute {file_path}: {e}")
+        raise
 
 #####################################
 # Main Execution
 #####################################
 
-if __name__ == "__main__":
-    logger.info("Starting db01_setup ...")
-    utils_project03.set_globalvars_for_data_folders_empty() # call this function to SET global vars FETCHED_DATA_DIR, PROCESSED_DIR
-    logger.info(f"Global vars FETCHED_DATA_DIR: {utils_project03.FETCHED_DATA_DIR}")
-    logger.info(f"Global vars PROCESSED_DIR: {utils_project03.PROCESSED_DIR}") 
+def main() -> None:
 
-    current_directory = os.getcwd()
-    subfolder_path_for_db= os.path.join(current_directory, "database")
-    subfolder_path_for_sqlscripts= os.path.join(current_directory, "sql_create")
-    file_path = os.path.join(subfolder_path_for_sqlscripts, "01_drop_tables.sql")
-    #file_path = os.path.join(subfolder_path_for_sqlscripts, "02_create_tables.sql")
-    #file_path = os.path.join(subfolder_path_for_sqlscripts, "03_insert_records.sql")
-    logger.info(f"Subfolder Path: {subfolder_path_for_sqlscripts}")
-    logger.info(f"File Path: {file_path}")
+    # Log start of database setup
+    logger.info("Starting database setup...")
+    
+    # Define path variables
+    ROOT_DIR = pathlib.Path(__file__).parent.resolve()
+    SQL_CREATE_FOLDER = ROOT_DIR.joinpath("sql_create")
+    DATA_FOLDER = ROOT_DIR.joinpath("data")
+    DATABASE_FOLDER = ROOT_DIR.joinpath("database")
+    DB_PATH = DATABASE_FOLDER.joinpath('tran_project05_database.db')
 
-    db_file_path = os.path.join(subfolder_path_for_db, "tran_project05_database.db")
-     
-    conn = sqlite3.connect(db_file_path) # for SQLite
-    cursor = conn.cursor()
+    # Ensure the data folder where we will put the db exists
+    DATABASE_FOLDER.mkdir(exist_ok=True)
 
-    with open(file_path, 'r') as sql_file:
-        sql_script = sql_file.read()
+    # Connect to SQLite database (it will be created if it doesn't exist)
+    try:
+        connection = sqlite3.connect(DB_PATH)
+        logger.info(f"Connected to database: {DB_PATH}")
 
-    cursor.executescript(sql_script)
-    conn.commit()
-    cursor.close()
-    conn.close()
+        # Execute SQL files to set up the database
+        # Pass in the connection and the path to the SQL file to be executed
+        execute_sql_file(connection, SQL_CREATE_FOLDER.joinpath('01_drop_tables.sql'))
+        execute_sql_file(connection, SQL_CREATE_FOLDER.joinpath('02_create_tables.sql'))
+        execute_sql_file(connection, SQL_CREATE_FOLDER.joinpath('03_insert_records.sql'))
 
-    #process_json_file()
-    logger.info("db01_setup complete.")
+        logger.info("Database setup completed successfully.")
+    except Exception as e:
+        logger.error(f"Error during database setup: {e}")
+    finally:
+        connection.close()
+        logger.info("Database connection closed.")
+
+
+if __name__ == '__main__':
+    main()

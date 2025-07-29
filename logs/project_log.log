@@ -183,3 +183,69 @@
 2025-07-28 21:05:22.104 | INFO     | __main__:<module>:43 - Subfolder Path: /Users/canhtran/Repos/datafun-05-sql/sql_create
 2025-07-28 21:05:22.104 | INFO     | __main__:<module>:44 - File Path: /Users/canhtran/Repos/datafun-05-sql/sql_create/01_drop_tables.sql
 2025-07-28 21:05:22.107 | INFO     | __main__:<module>:60 - db01_setup complete.
+2025-07-28 21:09:00.487 | INFO     | utils_logger:<module>:41 - Logging to file: logs/project_log.log
+2025-07-28 21:09:00.488 | INFO     | __main__:<module>:32 - Starting db01_setup ...
+2025-07-28 21:09:00.488 | INFO     | utils_project03:set_globalvars_for_data_folders_empty:42 -  * set_globalvars_for_data_folders_empty() is called
+2025-07-28 21:09:00.488 | INFO     | __main__:<module>:34 - Global vars FETCHED_DATA_DIR: example_data
+2025-07-28 21:09:00.488 | INFO     | __main__:<module>:35 - Global vars PROCESSED_DIR: tran_processed
+2025-07-28 21:09:00.488 | INFO     | __main__:<module>:43 - Subfolder Path: /Users/canhtran/Repos/datafun-05-sql/sql_create
+2025-07-28 21:09:00.488 | INFO     | __main__:<module>:44 - File Path: /Users/canhtran/Repos/datafun-05-sql/sql_create/03_insert_records.sql
+2025-07-28 21:09:00.490 | INFO     | __main__:<module>:60 - db01_setup complete.
+2025-07-28 21:16:25.025 | INFO     | utils_logger:<module>:41 - Logging to file: logs/project_log.log
+2025-07-28 21:16:25.025 | INFO     | __main__:main:55 - Starting database setup...
+2025-07-28 21:16:25.026 | INFO     | __main__:main:70 - Connected to database: /Users/canhtran/Repos/datafun-05-sql/database/db.sqlite
+2025-07-28 21:16:25.026 | INFO     | __main__:execute_sql_file:43 - Executed: /Users/canhtran/Repos/datafun-05-sql/sql_create/01_drop_tables.sql
+2025-07-28 21:16:25.029 | INFO     | __main__:execute_sql_file:43 - Executed: /Users/canhtran/Repos/datafun-05-sql/sql_create/02_create_tables.sql
+2025-07-28 21:16:25.031 | ERROR    | __main__:execute_sql_file:45 - Failed to execute /Users/canhtran/Repos/datafun-05-sql/sql_create/03_insert_records.sql: UNIQUE constraint failed: TestScores.testscore_id
+2025-07-28 21:16:25.031 | ERROR    | __main__:main:80 - Error during database setup: UNIQUE constraint failed: TestScores.testscore_id
+2025-07-28 21:16:25.031 | INFO     | __main__:main:83 - Database connection closed.
+2025-07-28 21:17:43.488 | INFO     | utils_logger:<module>:41 - Logging to file: logs/project_log.log
+2025-07-28 21:17:43.488 | INFO     | __main__:main:55 - Starting database setup...
+2025-07-28 21:17:43.488 | INFO     | __main__:main:70 - Connected to database: /Users/canhtran/Repos/datafun-05-sql/database/db.sqlite
+2025-07-28 21:17:43.491 | INFO     | __main__:execute_sql_file:43 - Executed: /Users/canhtran/Repos/datafun-05-sql/sql_create/01_drop_tables.sql
+2025-07-28 21:17:43.491 | INFO     | __main__:main:78 - Database setup completed successfully.
+2025-07-28 21:17:43.491 | INFO     | __main__:main:83 - Database connection closed.
+2025-07-28 21:19:07.514 | INFO     | utils_logger:<module>:41 - Logging to file: logs/project_log.log
+2025-07-28 21:19:07.514 | INFO     | __main__:main:55 - Starting database setup...
+2025-07-28 21:19:07.515 | INFO     | __main__:main:70 - Connected to database: /Users/canhtran/Repos/datafun-05-sql/database/tran_project_databasee.db
+2025-07-28 21:19:07.515 | INFO     | __main__:execute_sql_file:43 - Executed: /Users/canhtran/Repos/datafun-05-sql/sql_create/01_drop_tables.sql
+2025-07-28 21:19:07.515 | INFO     | __main__:main:78 - Database setup completed successfully.
+2025-07-28 21:19:07.515 | INFO     | __main__:main:83 - Database connection closed.
+2025-07-28 21:20:06.421 | INFO     | utils_logger:<module>:41 - Logging to file: logs/project_log.log
+2025-07-28 21:20:06.421 | INFO     | __main__:main:55 - Starting database setup...
+2025-07-28 21:20:06.422 | INFO     | __main__:main:70 - Connected to database: /Users/canhtran/Repos/datafun-05-sql/database/tran_project05_database.db
+2025-07-28 21:20:06.424 | INFO     | __main__:execute_sql_file:43 - Executed: /Users/canhtran/Repos/datafun-05-sql/sql_create/01_drop_tables.sql
+2025-07-28 21:20:06.424 | INFO     | __main__:main:78 - Database setup completed successfully.
+2025-07-28 21:20:06.425 | INFO     | __main__:main:83 - Database connection closed.
+2025-07-28 21:20:30.128 | INFO     | utils_logger:<module>:41 - Logging to file: logs/project_log.log
+2025-07-28 21:20:30.128 | INFO     | __main__:main:55 - Starting database setup...
+2025-07-28 21:20:30.129 | INFO     | __main__:main:70 - Connected to database: /Users/canhtran/Repos/datafun-05-sql/database/tran_project05_database.db
+2025-07-28 21:20:30.129 | INFO     | __main__:execute_sql_file:43 - Executed: /Users/canhtran/Repos/datafun-05-sql/sql_create/01_drop_tables.sql
+2025-07-28 21:20:30.131 | INFO     | __main__:execute_sql_file:43 - Executed: /Users/canhtran/Repos/datafun-05-sql/sql_create/02_create_tables.sql
+2025-07-28 21:20:30.133 | ERROR    | __main__:execute_sql_file:45 - Failed to execute /Users/canhtran/Repos/datafun-05-sql/sql_create/03_insert_records.sql: UNIQUE constraint failed: TestScores.testscore_id
+2025-07-28 21:20:30.133 | ERROR    | __main__:main:80 - Error during database setup: UNIQUE constraint failed: TestScores.testscore_id
+2025-07-28 21:20:30.133 | INFO     | __main__:main:83 - Database connection closed.
+2025-07-28 21:22:44.081 | INFO     | utils_logger:<module>:41 - Logging to file: logs/project_log.log
+2025-07-28 21:22:44.081 | INFO     | __main__:main:55 - Starting database setup...
+2025-07-28 21:22:44.082 | INFO     | __main__:main:70 - Connected to database: /Users/canhtran/Repos/datafun-05-sql/database/tran_project05_database.db
+2025-07-28 21:22:44.085 | INFO     | __main__:execute_sql_file:43 - Executed: /Users/canhtran/Repos/datafun-05-sql/sql_create/01_drop_tables.sql
+2025-07-28 21:22:44.087 | INFO     | __main__:execute_sql_file:43 - Executed: /Users/canhtran/Repos/datafun-05-sql/sql_create/02_create_tables.sql
+2025-07-28 21:22:44.089 | ERROR    | __main__:execute_sql_file:45 - Failed to execute /Users/canhtran/Repos/datafun-05-sql/sql_create/03_insert_records.sql: FOREIGN KEY constraint failed
+2025-07-28 21:22:44.089 | ERROR    | __main__:main:80 - Error during database setup: FOREIGN KEY constraint failed
+2025-07-28 21:22:44.089 | INFO     | __main__:main:83 - Database connection closed.
+2025-07-28 21:23:03.718 | INFO     | utils_logger:<module>:41 - Logging to file: logs/project_log.log
+2025-07-28 21:23:03.718 | INFO     | __main__:main:55 - Starting database setup...
+2025-07-28 21:23:03.718 | INFO     | __main__:main:70 - Connected to database: /Users/canhtran/Repos/datafun-05-sql/database/tran_project05_database.db
+2025-07-28 21:23:03.721 | INFO     | __main__:execute_sql_file:43 - Executed: /Users/canhtran/Repos/datafun-05-sql/sql_create/01_drop_tables.sql
+2025-07-28 21:23:03.723 | INFO     | __main__:execute_sql_file:43 - Executed: /Users/canhtran/Repos/datafun-05-sql/sql_create/02_create_tables.sql
+2025-07-28 21:23:03.725 | ERROR    | __main__:execute_sql_file:45 - Failed to execute /Users/canhtran/Repos/datafun-05-sql/sql_create/03_insert_records.sql: FOREIGN KEY constraint failed
+2025-07-28 21:23:03.725 | ERROR    | __main__:main:80 - Error during database setup: FOREIGN KEY constraint failed
+2025-07-28 21:23:03.725 | INFO     | __main__:main:83 - Database connection closed.
+2025-07-28 21:24:03.820 | INFO     | utils_logger:<module>:41 - Logging to file: logs/project_log.log
+2025-07-28 21:24:03.820 | INFO     | __main__:main:55 - Starting database setup...
+2025-07-28 21:24:03.820 | INFO     | __main__:main:70 - Connected to database: /Users/canhtran/Repos/datafun-05-sql/database/tran_project05_database.db
+2025-07-28 21:24:03.823 | INFO     | __main__:execute_sql_file:43 - Executed: /Users/canhtran/Repos/datafun-05-sql/sql_create/01_drop_tables.sql
+2025-07-28 21:24:03.826 | INFO     | __main__:execute_sql_file:43 - Executed: /Users/canhtran/Repos/datafun-05-sql/sql_create/02_create_tables.sql
+2025-07-28 21:24:03.828 | INFO     | __main__:execute_sql_file:43 - Executed: /Users/canhtran/Repos/datafun-05-sql/sql_create/03_insert_records.sql
+2025-07-28 21:24:03.828 | INFO     | __main__:main:78 - Database setup completed successfully.
+2025-07-28 21:24:03.828 | INFO     | __main__:main:83 - Database connection closed.
