@@ -66,8 +66,9 @@ def main() -> None:
         logger.info(f"Connected to database: {utils_project.DB_PATH}")
 
         # Execute all SQL files in the sql_features folder
-        for sql_file in sorted(utils_project.SQL_SCRIPT_FOLDER.glob("*.sql")):
-            execute_sql_file(connection, sql_file)
+        #for sql_file in sorted(utils_project.SQL_SCRIPT_FOLDER.glob("*.sql")):
+        #    execute_sql_file(connection, sql_file)
+        execute_sql_file(connection, utils_project.SQL_SCRIPT_FOLDER.joinpath('dcase_sample_query01.sql'))
 
         logger.info("Feature queries execution completed successfully.")
     except Exception as e:

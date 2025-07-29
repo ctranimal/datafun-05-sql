@@ -430,3 +430,79 @@
 2025-07-29 09:14:55.827 | INFO     | __main__:execute_sql_file:39 - Executed: /Users/canhtran/Repos/datafun-05-sql/sql_features/dcase_sample.sql
 2025-07-29 09:14:55.827 | INFO     | __main__:main:74 - Feature queries execution completed successfully.
 2025-07-29 09:14:55.827 | INFO     | __main__:main:79 - Database connection closed.
+2025-07-29 09:25:30.719 | INFO     | utils_logger:<module>:41 - Logging to file: logs/project_log.log
+2025-07-29 09:25:30.720 | INFO     | __main__:main:55 - Starting database setup...
+2025-07-29 09:25:30.720 | INFO     | utils_project:set_globalvars_for_project_folders:49 -  * set_globalvars_for_project_folders() is called, sql_script_folder=sql_create
+2025-07-29 09:25:30.720 | INFO     | __main__:main:59 - Global vars ROOT_DIR: /Users/canhtran/Repos/datafun-05-sql
+2025-07-29 09:25:30.720 | INFO     | __main__:main:60 - Global vars DB_PATH: /Users/canhtran/Repos/datafun-05-sql/database/tran_project05_database.db
+2025-07-29 09:25:30.721 | INFO     | __main__:main:67 - Connected to database: /Users/canhtran/Repos/datafun-05-sql/database/tran_project05_database.db
+2025-07-29 09:25:30.724 | INFO     | __main__:execute_sql_file:43 - Executed: /Users/canhtran/Repos/datafun-05-sql/sql_create/01_drop_tables.sql
+2025-07-29 09:25:30.727 | INFO     | __main__:execute_sql_file:43 - Executed: /Users/canhtran/Repos/datafun-05-sql/sql_create/02_create_tables.sql
+2025-07-29 09:25:30.729 | INFO     | __main__:execute_sql_file:43 - Executed: /Users/canhtran/Repos/datafun-05-sql/sql_create/03_insert_records.sql
+2025-07-29 09:25:30.729 | INFO     | __main__:main:75 - Database setup completed successfully.
+2025-07-29 09:25:30.729 | INFO     | __main__:main:80 - Database connection closed.
+2025-07-29 09:25:56.695 | INFO     | utils_logger:<module>:41 - Logging to file: logs/project_log.log
+2025-07-29 09:25:56.696 | INFO     | __main__:main:51 - Starting feature queries execution...
+2025-07-29 09:25:56.696 | INFO     | utils_project:set_globalvars_for_project_folders:49 -  * set_globalvars_for_project_folders() is called, sql_script_folder=sql_queries
+2025-07-29 09:25:56.696 | INFO     | __main__:main:55 - Global vars ROOT_DIR: /Users/canhtran/Repos/datafun-05-sql
+2025-07-29 09:25:56.696 | INFO     | __main__:main:56 - Global vars DB_PATH: /Users/canhtran/Repos/datafun-05-sql/database/tran_project05_database.db
+2025-07-29 09:25:56.697 | INFO     | __main__:main:66 - Connected to database: /Users/canhtran/Repos/datafun-05-sql/database/tran_project05_database.db
+2025-07-29 09:25:56.697 | ERROR    | __main__:execute_sql_file:41 - Failed to execute /Users/canhtran/Repos/datafun-05-sql/sql_queries/dcase_sample_query01.sql: no such column: Student.first_namee
+2025-07-29 09:25:56.697 | ERROR    | __main__:main:75 - Error during feature queries execution: no such column: Student.first_namee
+2025-07-29 09:25:56.698 | INFO     | __main__:main:78 - Database connection closed.
+2025-07-29 09:26:21.213 | INFO     | utils_logger:<module>:41 - Logging to file: logs/project_log.log
+2025-07-29 09:26:21.213 | INFO     | __main__:main:55 - Starting database setup...
+2025-07-29 09:26:21.213 | INFO     | utils_project:set_globalvars_for_project_folders:49 -  * set_globalvars_for_project_folders() is called, sql_script_folder=sql_create
+2025-07-29 09:26:21.214 | INFO     | __main__:main:59 - Global vars ROOT_DIR: /Users/canhtran/Repos/datafun-05-sql
+2025-07-29 09:26:21.214 | INFO     | __main__:main:60 - Global vars DB_PATH: /Users/canhtran/Repos/datafun-05-sql/database/tran_project05_database.db
+2025-07-29 09:26:21.214 | INFO     | __main__:main:67 - Connected to database: /Users/canhtran/Repos/datafun-05-sql/database/tran_project05_database.db
+2025-07-29 09:26:21.217 | INFO     | __main__:execute_sql_file:43 - Executed: /Users/canhtran/Repos/datafun-05-sql/sql_create/01_drop_tables.sql
+2025-07-29 09:26:21.220 | INFO     | __main__:execute_sql_file:43 - Executed: /Users/canhtran/Repos/datafun-05-sql/sql_create/02_create_tables.sql
+2025-07-29 09:26:21.223 | INFO     | __main__:execute_sql_file:43 - Executed: /Users/canhtran/Repos/datafun-05-sql/sql_create/03_insert_records.sql
+2025-07-29 09:26:21.223 | INFO     | __main__:main:75 - Database setup completed successfully.
+2025-07-29 09:26:21.223 | INFO     | __main__:main:80 - Database connection closed.
+2025-07-29 09:26:25.231 | INFO     | utils_logger:<module>:41 - Logging to file: logs/project_log.log
+2025-07-29 09:26:25.231 | INFO     | __main__:main:51 - Starting feature queries execution...
+2025-07-29 09:26:25.231 | INFO     | utils_project:set_globalvars_for_project_folders:49 -  * set_globalvars_for_project_folders() is called, sql_script_folder=sql_queries
+2025-07-29 09:26:25.231 | INFO     | __main__:main:55 - Global vars ROOT_DIR: /Users/canhtran/Repos/datafun-05-sql
+2025-07-29 09:26:25.231 | INFO     | __main__:main:56 - Global vars DB_PATH: /Users/canhtran/Repos/datafun-05-sql/database/tran_project05_database.db
+2025-07-29 09:26:25.232 | INFO     | __main__:main:66 - Connected to database: /Users/canhtran/Repos/datafun-05-sql/database/tran_project05_database.db
+2025-07-29 09:26:25.232 | ERROR    | __main__:execute_sql_file:41 - Failed to execute /Users/canhtran/Repos/datafun-05-sql/sql_queries/dcase_sample_query01.sql: no such column: Student.first_name
+2025-07-29 09:26:25.232 | ERROR    | __main__:main:75 - Error during feature queries execution: no such column: Student.first_name
+2025-07-29 09:26:25.232 | INFO     | __main__:main:78 - Database connection closed.
+2025-07-29 09:26:50.079 | INFO     | utils_logger:<module>:41 - Logging to file: logs/project_log.log
+2025-07-29 09:26:50.079 | INFO     | __main__:main:51 - Starting feature queries execution...
+2025-07-29 09:26:50.079 | INFO     | utils_project:set_globalvars_for_project_folders:49 -  * set_globalvars_for_project_folders() is called, sql_script_folder=sql_queries
+2025-07-29 09:26:50.079 | INFO     | __main__:main:55 - Global vars ROOT_DIR: /Users/canhtran/Repos/datafun-05-sql
+2025-07-29 09:26:50.080 | INFO     | __main__:main:56 - Global vars DB_PATH: /Users/canhtran/Repos/datafun-05-sql/database/tran_project05_database.db
+2025-07-29 09:26:50.080 | INFO     | __main__:main:66 - Connected to database: /Users/canhtran/Repos/datafun-05-sql/database/tran_project05_database.db
+2025-07-29 09:26:50.080 | ERROR    | __main__:execute_sql_file:41 - Failed to execute /Users/canhtran/Repos/datafun-05-sql/sql_queries/dcase_sample_query01.sql: no such column: Students.first_name
+2025-07-29 09:26:50.080 | ERROR    | __main__:main:75 - Error during feature queries execution: no such column: Students.first_name
+2025-07-29 09:26:50.081 | INFO     | __main__:main:78 - Database connection closed.
+2025-07-29 09:28:29.569 | INFO     | utils_logger:<module>:41 - Logging to file: logs/project_log.log
+2025-07-29 09:28:29.570 | INFO     | __main__:main:51 - Starting feature queries execution...
+2025-07-29 09:28:29.570 | INFO     | utils_project:set_globalvars_for_project_folders:49 -  * set_globalvars_for_project_folders() is called, sql_script_folder=sql_queries
+2025-07-29 09:28:29.570 | INFO     | __main__:main:55 - Global vars ROOT_DIR: /Users/canhtran/Repos/datafun-05-sql
+2025-07-29 09:28:29.570 | INFO     | __main__:main:56 - Global vars DB_PATH: /Users/canhtran/Repos/datafun-05-sql/database/tran_project05_database.db
+2025-07-29 09:28:29.570 | INFO     | __main__:main:66 - Connected to database: /Users/canhtran/Repos/datafun-05-sql/database/tran_project05_database.db
+2025-07-29 09:28:29.571 | ERROR    | __main__:execute_sql_file:41 - Failed to execute /Users/canhtran/Repos/datafun-05-sql/sql_queries/dcase_sample_query01.sql: no such column: Students.first_name
+2025-07-29 09:28:29.571 | ERROR    | __main__:main:75 - Error during feature queries execution: no such column: Students.first_name
+2025-07-29 09:28:29.571 | INFO     | __main__:main:78 - Database connection closed.
+2025-07-29 09:31:31.208 | INFO     | utils_logger:<module>:41 - Logging to file: logs/project_log.log
+2025-07-29 09:31:31.209 | INFO     | __main__:main:51 - Starting feature queries execution...
+2025-07-29 09:31:31.209 | INFO     | utils_project:set_globalvars_for_project_folders:49 -  * set_globalvars_for_project_folders() is called, sql_script_folder=sql_queries
+2025-07-29 09:31:31.209 | INFO     | __main__:main:55 - Global vars ROOT_DIR: /Users/canhtran/Repos/datafun-05-sql
+2025-07-29 09:31:31.209 | INFO     | __main__:main:56 - Global vars DB_PATH: /Users/canhtran/Repos/datafun-05-sql/database/tran_project05_database.db
+2025-07-29 09:31:31.209 | INFO     | __main__:main:66 - Connected to database: /Users/canhtran/Repos/datafun-05-sql/database/tran_project05_database.db
+2025-07-29 09:31:31.210 | ERROR    | __main__:execute_sql_file:41 - Failed to execute /Users/canhtran/Repos/datafun-05-sql/sql_queries/dcase_sample_query01.sql: no such column: Students.first_name
+2025-07-29 09:31:31.210 | ERROR    | __main__:main:75 - Error during feature queries execution: no such column: Students.first_name
+2025-07-29 09:31:31.210 | INFO     | __main__:main:78 - Database connection closed.
+2025-07-29 09:32:20.338 | INFO     | utils_logger:<module>:41 - Logging to file: logs/project_log.log
+2025-07-29 09:32:20.338 | INFO     | __main__:main:51 - Starting feature queries execution...
+2025-07-29 09:32:20.339 | INFO     | utils_project:set_globalvars_for_project_folders:49 -  * set_globalvars_for_project_folders() is called, sql_script_folder=sql_queries
+2025-07-29 09:32:20.339 | INFO     | __main__:main:55 - Global vars ROOT_DIR: /Users/canhtran/Repos/datafun-05-sql
+2025-07-29 09:32:20.339 | INFO     | __main__:main:56 - Global vars DB_PATH: /Users/canhtran/Repos/datafun-05-sql/database/tran_project05_database.db
+2025-07-29 09:32:20.339 | INFO     | __main__:main:66 - Connected to database: /Users/canhtran/Repos/datafun-05-sql/database/tran_project05_database.db
+2025-07-29 09:32:20.340 | ERROR    | __main__:execute_sql_file:41 - Failed to execute /Users/canhtran/Repos/datafun-05-sql/sql_queries/dcase_sample_query01.sql: no such column: Students.last_name
+2025-07-29 09:32:20.340 | ERROR    | __main__:main:75 - Error during feature queries execution: no such column: Students.last_name
+2025-07-29 09:32:20.340 | INFO     | __main__:main:78 - Database connection closed.
