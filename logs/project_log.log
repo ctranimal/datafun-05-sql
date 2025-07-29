@@ -506,3 +506,73 @@
 2025-07-29 09:32:20.340 | ERROR    | __main__:execute_sql_file:41 - Failed to execute /Users/canhtran/Repos/datafun-05-sql/sql_queries/dcase_sample_query01.sql: no such column: Students.last_name
 2025-07-29 09:32:20.340 | ERROR    | __main__:main:75 - Error during feature queries execution: no such column: Students.last_name
 2025-07-29 09:32:20.340 | INFO     | __main__:main:78 - Database connection closed.
+2025-07-29 09:51:01.245 | INFO     | utils_logger:<module>:41 - Logging to file: logs/project_log.log
+2025-07-29 09:51:01.246 | INFO     | __main__:main:55 - Starting database setup...
+2025-07-29 09:51:01.246 | INFO     | utils_project:set_globalvars_for_project_folders:49 -  * set_globalvars_for_project_folders() is called, sql_script_folder=sql_create
+2025-07-29 09:51:01.246 | INFO     | __main__:main:59 - Global vars ROOT_DIR: /Users/canhtran/Repos/datafun-05-sql
+2025-07-29 09:51:01.246 | INFO     | __main__:main:60 - Global vars DB_PATH: /Users/canhtran/Repos/datafun-05-sql/database/tran_project05_database.db
+2025-07-29 09:51:01.246 | INFO     | __main__:main:67 - Connected to database: /Users/canhtran/Repos/datafun-05-sql/database/tran_project05_database.db
+2025-07-29 09:51:01.249 | INFO     | __main__:execute_sql_file:43 - Executed: /Users/canhtran/Repos/datafun-05-sql/sql_create/01_drop_tables.sql
+2025-07-29 09:51:01.252 | INFO     | __main__:execute_sql_file:43 - Executed: /Users/canhtran/Repos/datafun-05-sql/sql_create/02_create_tables.sql
+2025-07-29 09:51:01.255 | INFO     | __main__:execute_sql_file:43 - Executed: /Users/canhtran/Repos/datafun-05-sql/sql_create/03_insert_records.sql
+2025-07-29 09:51:01.255 | INFO     | __main__:main:75 - Database setup completed successfully.
+2025-07-29 09:51:01.255 | INFO     | __main__:main:80 - Database connection closed.
+2025-07-29 09:53:00.394 | INFO     | utils_logger:<module>:41 - Logging to file: logs/project_log.log
+2025-07-29 09:53:00.394 | INFO     | __main__:main:55 - Starting database setup...
+2025-07-29 09:53:00.394 | INFO     | utils_project:set_globalvars_for_project_folders:49 -  * set_globalvars_for_project_folders() is called, sql_script_folder=sql_create
+2025-07-29 09:53:00.394 | INFO     | __main__:main:59 - Global vars ROOT_DIR: /Users/canhtran/Repos/datafun-05-sql
+2025-07-29 09:53:00.395 | INFO     | __main__:main:60 - Global vars DB_PATH: /Users/canhtran/Repos/datafun-05-sql/database/tran_project05_database.db
+2025-07-29 09:53:00.395 | INFO     | __main__:main:67 - Connected to database: /Users/canhtran/Repos/datafun-05-sql/database/tran_project05_database.db
+2025-07-29 09:53:00.397 | INFO     | __main__:execute_sql_file:43 - Executed: /Users/canhtran/Repos/datafun-05-sql/sql_create/01_drop_tables.sql
+2025-07-29 09:53:00.400 | INFO     | __main__:execute_sql_file:43 - Executed: /Users/canhtran/Repos/datafun-05-sql/sql_create/02_create_tables.sql
+2025-07-29 09:53:00.402 | INFO     | __main__:execute_sql_file:43 - Executed: /Users/canhtran/Repos/datafun-05-sql/sql_create/03_insert_records.sql
+2025-07-29 09:53:00.403 | INFO     | __main__:main:75 - Database setup completed successfully.
+2025-07-29 09:53:00.403 | INFO     | __main__:main:80 - Database connection closed.
+2025-07-29 09:54:14.526 | INFO     | utils_logger:<module>:41 - Logging to file: logs/project_log.log
+2025-07-29 09:54:14.526 | INFO     | __main__:main:55 - Starting database setup...
+2025-07-29 09:54:14.526 | INFO     | utils_project:set_globalvars_for_project_folders:49 -  * set_globalvars_for_project_folders() is called, sql_script_folder=sql_create
+2025-07-29 09:54:14.527 | INFO     | __main__:main:59 - Global vars ROOT_DIR: /Users/canhtran/Repos/datafun-05-sql
+2025-07-29 09:54:14.527 | INFO     | __main__:main:60 - Global vars DB_PATH: /Users/canhtran/Repos/datafun-05-sql/database/tran_project05_database.db
+2025-07-29 09:54:14.527 | INFO     | __main__:main:67 - Connected to database: /Users/canhtran/Repos/datafun-05-sql/database/tran_project05_database.db
+2025-07-29 09:54:14.530 | INFO     | __main__:execute_sql_file:43 - Executed: /Users/canhtran/Repos/datafun-05-sql/sql_create/01_drop_tables.sql
+2025-07-29 09:54:14.532 | INFO     | __main__:execute_sql_file:43 - Executed: /Users/canhtran/Repos/datafun-05-sql/sql_create/02_create_tables.sql
+2025-07-29 09:54:14.535 | INFO     | __main__:execute_sql_file:43 - Executed: /Users/canhtran/Repos/datafun-05-sql/sql_create/03_insert_records.sql
+2025-07-29 09:54:14.535 | INFO     | __main__:main:75 - Database setup completed successfully.
+2025-07-29 09:54:14.535 | INFO     | __main__:main:80 - Database connection closed.
+2025-07-29 10:37:06.901 | INFO     | utils_logger:<module>:41 - Logging to file: logs/project_log.log
+2025-07-29 10:41:09.182 | INFO     | utils_logger:<module>:41 - Logging to file: logs/project_log.log
+2025-07-29 10:41:09.183 | INFO     | utils_project:set_globalvars_for_project_folders:49 -  * set_globalvars_for_project_folders() is called, sql_script_folder=sql_create
+2025-07-29 10:42:21.516 | INFO     | utils_logger:<module>:41 - Logging to file: logs/project_log.log
+2025-07-29 10:42:21.516 | INFO     | utils_project:set_globalvars_for_project_folders:49 -  * set_globalvars_for_project_folders() is called, sql_script_folder=sql_create
+2025-07-29 10:42:21.516 | INFO     | __main__:main:100 - Global vars ROOT_DIR: /Users/canhtran/Repos/datafun-05-sql
+2025-07-29 10:42:21.516 | INFO     | __main__:main:101 - Global vars DB_PATH: /Users/canhtran/Repos/datafun-05-sql/database/tran_project05_database.db
+2025-07-29 10:43:16.741 | INFO     | utils_logger:<module>:41 - Logging to file: logs/project_log.log
+2025-07-29 10:43:16.741 | INFO     | utils_project:set_globalvars_for_project_folders:49 -  * set_globalvars_for_project_folders() is called, sql_script_folder=sql_create
+2025-07-29 10:43:16.741 | INFO     | __main__:main:100 - Global vars ROOT_DIR: /Users/canhtran/Repos/datafun-05-sql
+2025-07-29 10:43:16.741 | INFO     | __main__:main:101 - Global vars DB_PATH: /Users/canhtran/Repos/datafun-05-sql/database/tran_project05_database.db
+2025-07-29 10:45:05.660 | INFO     | utils_logger:<module>:41 - Logging to file: logs/project_log.log
+2025-07-29 10:45:05.660 | INFO     | utils_project:set_globalvars_for_project_folders:49 -  * set_globalvars_for_project_folders() is called, sql_script_folder=sql_create
+2025-07-29 10:45:05.660 | INFO     | __main__:main:122 - Global vars ROOT_DIR: /Users/canhtran/Repos/datafun-05-sql
+2025-07-29 10:45:05.660 | INFO     | __main__:main:123 - Global vars DB_PATH: /Users/canhtran/Repos/datafun-05-sql/database/tran_project05_database.db
+2025-07-29 10:45:05.663 | INFO     | __main__:execute_sql_file:112 - Executed: /Users/canhtran/Repos/datafun-05-sql/sql_create/01_drop_tables.sql
+2025-07-29 10:47:27.979 | INFO     | utils_logger:<module>:41 - Logging to file: logs/project_log.log
+2025-07-29 10:47:27.979 | INFO     | utils_project:set_globalvars_for_project_folders:49 -  * set_globalvars_for_project_folders() is called, sql_script_folder=sql_create
+2025-07-29 10:47:27.979 | INFO     | __main__:main:122 - Global vars ROOT_DIR: /Users/canhtran/Repos/datafun-05-sql
+2025-07-29 10:47:27.979 | INFO     | __main__:main:123 - Global vars DB_PATH: /Users/canhtran/Repos/datafun-05-sql/database/tran_project05_database.db
+2025-07-29 10:47:27.983 | INFO     | __main__:execute_sql_file:112 - Executed: /Users/canhtran/Repos/datafun-05-sql/sql_create/01_drop_tables.sql
+2025-07-29 10:48:34.611 | INFO     | utils_logger:<module>:41 - Logging to file: logs/project_log.log
+2025-07-29 10:48:34.611 | INFO     | __main__:main:55 - Starting database setup...
+2025-07-29 10:48:34.612 | INFO     | utils_project:set_globalvars_for_project_folders:49 -  * set_globalvars_for_project_folders() is called, sql_script_folder=sql_create
+2025-07-29 10:48:34.612 | INFO     | __main__:main:59 - Global vars ROOT_DIR: /Users/canhtran/Repos/datafun-05-sql
+2025-07-29 10:48:34.612 | INFO     | __main__:main:60 - Global vars DB_PATH: /Users/canhtran/Repos/datafun-05-sql/database/tran_project05_database.db
+2025-07-29 10:48:34.612 | INFO     | __main__:main:67 - Connected to database: /Users/canhtran/Repos/datafun-05-sql/database/tran_project05_database.db
+2025-07-29 10:48:34.615 | INFO     | __main__:execute_sql_file:43 - Executed: /Users/canhtran/Repos/datafun-05-sql/sql_create/01_drop_tables.sql
+2025-07-29 10:48:34.617 | INFO     | __main__:execute_sql_file:43 - Executed: /Users/canhtran/Repos/datafun-05-sql/sql_create/02_create_tables.sql
+2025-07-29 10:48:34.619 | INFO     | __main__:execute_sql_file:43 - Executed: /Users/canhtran/Repos/datafun-05-sql/sql_create/03_insert_records.sql
+2025-07-29 10:48:34.619 | INFO     | __main__:main:75 - Database setup completed successfully.
+2025-07-29 10:48:34.619 | INFO     | __main__:main:80 - Database connection closed.
+2025-07-29 10:48:53.020 | INFO     | utils_logger:<module>:41 - Logging to file: logs/project_log.log
+2025-07-29 10:48:53.020 | INFO     | utils_project:set_globalvars_for_project_folders:49 -  * set_globalvars_for_project_folders() is called, sql_script_folder=sql_create
+2025-07-29 10:48:53.020 | INFO     | __main__:main:122 - Global vars ROOT_DIR: /Users/canhtran/Repos/datafun-05-sql
+2025-07-29 10:48:53.021 | INFO     | __main__:main:123 - Global vars DB_PATH: /Users/canhtran/Repos/datafun-05-sql/database/tran_project05_database.db
+2025-07-29 10:48:53.025 | INFO     | __main__:execute_sql_file:112 - Executed: /Users/canhtran/Repos/datafun-05-sql/sql_create/01_drop_tables.sql
