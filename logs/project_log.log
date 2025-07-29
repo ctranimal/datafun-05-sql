@@ -314,3 +314,119 @@
 2025-07-29 08:48:31.451 | INFO     | __main__:execute_sql_file:39 - Executed: /Users/canhtran/Repos/datafun-05-sql/sql_queries/query_sorting.sql
 2025-07-29 08:48:31.451 | INFO     | __main__:main:72 - Feature queries execution completed successfully.
 2025-07-29 08:48:31.451 | INFO     | __main__:main:77 - Database connection closed.
+2025-07-29 09:07:07.336 | INFO     | utils_logger:<module>:41 - Logging to file: logs/project_log.log
+2025-07-29 09:07:07.337 | INFO     | __main__:main:51 - Starting feature queries execution...
+2025-07-29 09:07:07.337 | INFO     | utils_project:set_globalvars_for_project_folders:49 -  * set_globalvars_for_project_folders() is called, sql_script_folder=sql_features
+2025-07-29 09:07:07.337 | INFO     | __main__:main:55 - Global vars ROOT_DIR: /Users/canhtran/Repos/datafun-05-sql
+2025-07-29 09:07:07.337 | INFO     | __main__:main:56 - Global vars DB_PATH: /Users/canhtran/Repos/datafun-05-sql/database/tran_project05_database.db
+2025-07-29 09:07:07.338 | INFO     | __main__:main:66 - Connected to database: /Users/canhtran/Repos/datafun-05-sql/database/tran_project05_database.db
+2025-07-29 09:07:07.340 | ERROR    | __main__:execute_sql_file:41 - Failed to execute /Users/canhtran/Repos/datafun-05-sql/sql_features/dcase_sample.sql: near "FROM": syntax error
+2025-07-29 09:07:07.340 | ERROR    | __main__:main:74 - Error during feature queries execution: near "FROM": syntax error
+2025-07-29 09:07:07.340 | INFO     | __main__:main:77 - Database connection closed.
+2025-07-29 09:08:21.529 | INFO     | utils_logger:<module>:41 - Logging to file: logs/project_log.log
+2025-07-29 09:08:21.529 | INFO     | __main__:main:51 - Starting feature queries execution...
+2025-07-29 09:08:21.529 | INFO     | utils_project:set_globalvars_for_project_folders:49 -  * set_globalvars_for_project_folders() is called, sql_script_folder=sql_features
+2025-07-29 09:08:21.529 | INFO     | __main__:main:55 - Global vars ROOT_DIR: /Users/canhtran/Repos/datafun-05-sql
+2025-07-29 09:08:21.529 | INFO     | __main__:main:56 - Global vars DB_PATH: /Users/canhtran/Repos/datafun-05-sql/database/tran_project05_database.db
+2025-07-29 09:08:21.530 | INFO     | __main__:main:66 - Connected to database: /Users/canhtran/Repos/datafun-05-sql/database/tran_project05_database.db
+2025-07-29 09:08:21.530 | ERROR    | __main__:execute_sql_file:41 - Failed to execute /Users/canhtran/Repos/datafun-05-sql/sql_features/dcase_sample.sql: duplicate column name: year_born
+2025-07-29 09:08:21.531 | ERROR    | __main__:main:76 - Error during feature queries execution: duplicate column name: year_born
+2025-07-29 09:08:21.531 | INFO     | __main__:main:79 - Database connection closed.
+2025-07-29 09:08:26.842 | INFO     | utils_logger:<module>:41 - Logging to file: logs/project_log.log
+2025-07-29 09:08:26.842 | INFO     | __main__:main:51 - Starting feature queries execution...
+2025-07-29 09:08:26.843 | INFO     | utils_project:set_globalvars_for_project_folders:49 -  * set_globalvars_for_project_folders() is called, sql_script_folder=sql_features
+2025-07-29 09:08:26.843 | INFO     | __main__:main:55 - Global vars ROOT_DIR: /Users/canhtran/Repos/datafun-05-sql
+2025-07-29 09:08:26.843 | INFO     | __main__:main:56 - Global vars DB_PATH: /Users/canhtran/Repos/datafun-05-sql/database/tran_project05_database.db
+2025-07-29 09:08:26.843 | INFO     | __main__:main:66 - Connected to database: /Users/canhtran/Repos/datafun-05-sql/database/tran_project05_database.db
+2025-07-29 09:08:26.844 | ERROR    | __main__:execute_sql_file:41 - Failed to execute /Users/canhtran/Repos/datafun-05-sql/sql_features/dcase_sample.sql: duplicate column name: year_born
+2025-07-29 09:08:26.844 | ERROR    | __main__:main:76 - Error during feature queries execution: duplicate column name: year_born
+2025-07-29 09:08:26.844 | INFO     | __main__:main:79 - Database connection closed.
+2025-07-29 09:08:52.247 | INFO     | utils_logger:<module>:41 - Logging to file: logs/project_log.log
+2025-07-29 09:08:52.247 | INFO     | __main__:main:55 - Starting database setup...
+2025-07-29 09:08:52.247 | INFO     | utils_project:set_globalvars_for_project_folders:49 -  * set_globalvars_for_project_folders() is called, sql_script_folder=sql_create
+2025-07-29 09:08:52.247 | INFO     | __main__:main:59 - Global vars ROOT_DIR: /Users/canhtran/Repos/datafun-05-sql
+2025-07-29 09:08:52.247 | INFO     | __main__:main:60 - Global vars DB_PATH: /Users/canhtran/Repos/datafun-05-sql/database/tran_project05_database.db
+2025-07-29 09:08:52.248 | INFO     | __main__:main:67 - Connected to database: /Users/canhtran/Repos/datafun-05-sql/database/tran_project05_database.db
+2025-07-29 09:08:52.250 | INFO     | __main__:execute_sql_file:43 - Executed: /Users/canhtran/Repos/datafun-05-sql/sql_create/01_drop_tables.sql
+2025-07-29 09:08:52.253 | INFO     | __main__:execute_sql_file:43 - Executed: /Users/canhtran/Repos/datafun-05-sql/sql_create/02_create_tables.sql
+2025-07-29 09:08:52.255 | INFO     | __main__:execute_sql_file:43 - Executed: /Users/canhtran/Repos/datafun-05-sql/sql_create/03_insert_records.sql
+2025-07-29 09:08:52.255 | INFO     | __main__:main:75 - Database setup completed successfully.
+2025-07-29 09:08:52.255 | INFO     | __main__:main:80 - Database connection closed.
+2025-07-29 09:08:56.678 | INFO     | utils_logger:<module>:41 - Logging to file: logs/project_log.log
+2025-07-29 09:08:56.679 | INFO     | __main__:main:51 - Starting feature queries execution...
+2025-07-29 09:08:56.679 | INFO     | utils_project:set_globalvars_for_project_folders:49 -  * set_globalvars_for_project_folders() is called, sql_script_folder=sql_features
+2025-07-29 09:08:56.679 | INFO     | __main__:main:55 - Global vars ROOT_DIR: /Users/canhtran/Repos/datafun-05-sql
+2025-07-29 09:08:56.679 | INFO     | __main__:main:56 - Global vars DB_PATH: /Users/canhtran/Repos/datafun-05-sql/database/tran_project05_database.db
+2025-07-29 09:08:56.679 | INFO     | __main__:main:66 - Connected to database: /Users/canhtran/Repos/datafun-05-sql/database/tran_project05_database.db
+2025-07-29 09:08:56.681 | ERROR    | __main__:execute_sql_file:41 - Failed to execute /Users/canhtran/Repos/datafun-05-sql/sql_features/dcase_sample.sql: near "FROM": syntax error
+2025-07-29 09:08:56.681 | ERROR    | __main__:main:76 - Error during feature queries execution: near "FROM": syntax error
+2025-07-29 09:08:56.681 | INFO     | __main__:main:79 - Database connection closed.
+2025-07-29 09:10:21.884 | INFO     | utils_logger:<module>:41 - Logging to file: logs/project_log.log
+2025-07-29 09:10:21.884 | INFO     | __main__:main:51 - Starting feature queries execution...
+2025-07-29 09:10:21.885 | INFO     | utils_project:set_globalvars_for_project_folders:49 -  * set_globalvars_for_project_folders() is called, sql_script_folder=sql_features
+2025-07-29 09:10:21.885 | INFO     | __main__:main:55 - Global vars ROOT_DIR: /Users/canhtran/Repos/datafun-05-sql
+2025-07-29 09:10:21.885 | INFO     | __main__:main:56 - Global vars DB_PATH: /Users/canhtran/Repos/datafun-05-sql/database/tran_project05_database.db
+2025-07-29 09:10:21.885 | INFO     | __main__:main:66 - Connected to database: /Users/canhtran/Repos/datafun-05-sql/database/tran_project05_database.db
+2025-07-29 09:10:21.886 | ERROR    | __main__:execute_sql_file:41 - Failed to execute /Users/canhtran/Repos/datafun-05-sql/sql_features/dcase_sample.sql: duplicate column name: year_born
+2025-07-29 09:10:21.886 | ERROR    | __main__:main:76 - Error during feature queries execution: duplicate column name: year_born
+2025-07-29 09:10:21.886 | INFO     | __main__:main:79 - Database connection closed.
+2025-07-29 09:10:36.269 | INFO     | utils_logger:<module>:41 - Logging to file: logs/project_log.log
+2025-07-29 09:10:36.270 | INFO     | __main__:main:55 - Starting database setup...
+2025-07-29 09:10:36.270 | INFO     | utils_project:set_globalvars_for_project_folders:49 -  * set_globalvars_for_project_folders() is called, sql_script_folder=sql_create
+2025-07-29 09:10:36.270 | INFO     | __main__:main:59 - Global vars ROOT_DIR: /Users/canhtran/Repos/datafun-05-sql
+2025-07-29 09:10:36.270 | INFO     | __main__:main:60 - Global vars DB_PATH: /Users/canhtran/Repos/datafun-05-sql/database/tran_project05_database.db
+2025-07-29 09:10:36.270 | INFO     | __main__:main:67 - Connected to database: /Users/canhtran/Repos/datafun-05-sql/database/tran_project05_database.db
+2025-07-29 09:10:36.273 | INFO     | __main__:execute_sql_file:43 - Executed: /Users/canhtran/Repos/datafun-05-sql/sql_create/01_drop_tables.sql
+2025-07-29 09:10:36.276 | INFO     | __main__:execute_sql_file:43 - Executed: /Users/canhtran/Repos/datafun-05-sql/sql_create/02_create_tables.sql
+2025-07-29 09:10:36.278 | INFO     | __main__:execute_sql_file:43 - Executed: /Users/canhtran/Repos/datafun-05-sql/sql_create/03_insert_records.sql
+2025-07-29 09:10:36.278 | INFO     | __main__:main:75 - Database setup completed successfully.
+2025-07-29 09:10:36.279 | INFO     | __main__:main:80 - Database connection closed.
+2025-07-29 09:10:39.910 | INFO     | utils_logger:<module>:41 - Logging to file: logs/project_log.log
+2025-07-29 09:10:39.911 | INFO     | __main__:main:51 - Starting feature queries execution...
+2025-07-29 09:10:39.911 | INFO     | utils_project:set_globalvars_for_project_folders:49 -  * set_globalvars_for_project_folders() is called, sql_script_folder=sql_features
+2025-07-29 09:10:39.911 | INFO     | __main__:main:55 - Global vars ROOT_DIR: /Users/canhtran/Repos/datafun-05-sql
+2025-07-29 09:10:39.911 | INFO     | __main__:main:56 - Global vars DB_PATH: /Users/canhtran/Repos/datafun-05-sql/database/tran_project05_database.db
+2025-07-29 09:10:39.912 | INFO     | __main__:main:66 - Connected to database: /Users/canhtran/Repos/datafun-05-sql/database/tran_project05_database.db
+2025-07-29 09:10:39.915 | INFO     | __main__:execute_sql_file:39 - Executed: /Users/canhtran/Repos/datafun-05-sql/sql_features/dcase_sample.sql
+2025-07-29 09:10:39.915 | INFO     | __main__:main:74 - Feature queries execution completed successfully.
+2025-07-29 09:10:39.915 | INFO     | __main__:main:79 - Database connection closed.
+2025-07-29 09:13:23.005 | INFO     | utils_logger:<module>:41 - Logging to file: logs/project_log.log
+2025-07-29 09:13:23.005 | INFO     | __main__:main:55 - Starting database setup...
+2025-07-29 09:13:23.006 | INFO     | utils_project:set_globalvars_for_project_folders:49 -  * set_globalvars_for_project_folders() is called, sql_script_folder=sql_create
+2025-07-29 09:13:23.006 | INFO     | __main__:main:59 - Global vars ROOT_DIR: /Users/canhtran/Repos/datafun-05-sql
+2025-07-29 09:13:23.006 | INFO     | __main__:main:60 - Global vars DB_PATH: /Users/canhtran/Repos/datafun-05-sql/database/tran_project05_database.db
+2025-07-29 09:13:23.006 | INFO     | __main__:main:67 - Connected to database: /Users/canhtran/Repos/datafun-05-sql/database/tran_project05_database.db
+2025-07-29 09:13:23.009 | INFO     | __main__:execute_sql_file:43 - Executed: /Users/canhtran/Repos/datafun-05-sql/sql_create/01_drop_tables.sql
+2025-07-29 09:13:23.012 | INFO     | __main__:execute_sql_file:43 - Executed: /Users/canhtran/Repos/datafun-05-sql/sql_create/02_create_tables.sql
+2025-07-29 09:13:23.015 | INFO     | __main__:execute_sql_file:43 - Executed: /Users/canhtran/Repos/datafun-05-sql/sql_create/03_insert_records.sql
+2025-07-29 09:13:23.015 | INFO     | __main__:main:75 - Database setup completed successfully.
+2025-07-29 09:13:23.015 | INFO     | __main__:main:80 - Database connection closed.
+2025-07-29 09:13:30.125 | INFO     | utils_logger:<module>:41 - Logging to file: logs/project_log.log
+2025-07-29 09:13:30.125 | INFO     | __main__:main:51 - Starting feature queries execution...
+2025-07-29 09:13:30.125 | INFO     | utils_project:set_globalvars_for_project_folders:49 -  * set_globalvars_for_project_folders() is called, sql_script_folder=sql_features
+2025-07-29 09:13:30.126 | INFO     | __main__:main:55 - Global vars ROOT_DIR: /Users/canhtran/Repos/datafun-05-sql
+2025-07-29 09:13:30.126 | INFO     | __main__:main:56 - Global vars DB_PATH: /Users/canhtran/Repos/datafun-05-sql/database/tran_project05_database.db
+2025-07-29 09:13:30.126 | INFO     | __main__:main:66 - Connected to database: /Users/canhtran/Repos/datafun-05-sql/database/tran_project05_database.db
+2025-07-29 09:13:30.129 | INFO     | __main__:execute_sql_file:39 - Executed: /Users/canhtran/Repos/datafun-05-sql/sql_features/dcase_sample.sql
+2025-07-29 09:13:30.129 | INFO     | __main__:main:74 - Feature queries execution completed successfully.
+2025-07-29 09:13:30.129 | INFO     | __main__:main:79 - Database connection closed.
+2025-07-29 09:14:51.355 | INFO     | utils_logger:<module>:41 - Logging to file: logs/project_log.log
+2025-07-29 09:14:51.355 | INFO     | __main__:main:55 - Starting database setup...
+2025-07-29 09:14:51.356 | INFO     | utils_project:set_globalvars_for_project_folders:49 -  * set_globalvars_for_project_folders() is called, sql_script_folder=sql_create
+2025-07-29 09:14:51.356 | INFO     | __main__:main:59 - Global vars ROOT_DIR: /Users/canhtran/Repos/datafun-05-sql
+2025-07-29 09:14:51.356 | INFO     | __main__:main:60 - Global vars DB_PATH: /Users/canhtran/Repos/datafun-05-sql/database/tran_project05_database.db
+2025-07-29 09:14:51.356 | INFO     | __main__:main:67 - Connected to database: /Users/canhtran/Repos/datafun-05-sql/database/tran_project05_database.db
+2025-07-29 09:14:51.359 | INFO     | __main__:execute_sql_file:43 - Executed: /Users/canhtran/Repos/datafun-05-sql/sql_create/01_drop_tables.sql
+2025-07-29 09:14:51.362 | INFO     | __main__:execute_sql_file:43 - Executed: /Users/canhtran/Repos/datafun-05-sql/sql_create/02_create_tables.sql
+2025-07-29 09:14:51.364 | INFO     | __main__:execute_sql_file:43 - Executed: /Users/canhtran/Repos/datafun-05-sql/sql_create/03_insert_records.sql
+2025-07-29 09:14:51.364 | INFO     | __main__:main:75 - Database setup completed successfully.
+2025-07-29 09:14:51.365 | INFO     | __main__:main:80 - Database connection closed.
+2025-07-29 09:14:55.823 | INFO     | utils_logger:<module>:41 - Logging to file: logs/project_log.log
+2025-07-29 09:14:55.823 | INFO     | __main__:main:51 - Starting feature queries execution...
+2025-07-29 09:14:55.823 | INFO     | utils_project:set_globalvars_for_project_folders:49 -  * set_globalvars_for_project_folders() is called, sql_script_folder=sql_features
+2025-07-29 09:14:55.824 | INFO     | __main__:main:55 - Global vars ROOT_DIR: /Users/canhtran/Repos/datafun-05-sql
+2025-07-29 09:14:55.824 | INFO     | __main__:main:56 - Global vars DB_PATH: /Users/canhtran/Repos/datafun-05-sql/database/tran_project05_database.db
+2025-07-29 09:14:55.824 | INFO     | __main__:main:66 - Connected to database: /Users/canhtran/Repos/datafun-05-sql/database/tran_project05_database.db
+2025-07-29 09:14:55.827 | INFO     | __main__:execute_sql_file:39 - Executed: /Users/canhtran/Repos/datafun-05-sql/sql_features/dcase_sample.sql
+2025-07-29 09:14:55.827 | INFO     | __main__:main:74 - Feature queries execution completed successfully.
+2025-07-29 09:14:55.827 | INFO     | __main__:main:79 - Database connection closed.

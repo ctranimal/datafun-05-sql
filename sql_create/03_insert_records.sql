@@ -1,9 +1,9 @@
 -- insert records into the Students table first
 INSERT INTO Students VALUES
-    ('STUDENT_001', 'John 01', 'Doe', 'firstname.lastname@blah.com'),
-    ('STUDENT_002', 'John 02', 'Doe', 'firstname.lastname@blah.com'),
-    ('STUDENT_003', 'John 03', 'Doe', 'firstname.lastname@blah.com'),
-    ('STUDENT_004', 'John 04', 'Doe', 'firstname.lastname@blah.com'),
+    ('STUDENT_001', 'John 01', 'Doen', 'firstname.lastname@blah.com'),
+    ('STUDENT_002', 'John 02', 'Smith', 'firstname.lastname@blah.com'),
+    ('STUDENT_003', 'John 03', 'Smitherese', 'firstname.lastname@blah.com'),
+    ('STUDENT_004', 'John 04', 'Ditherese', 'firstname.lastname@blah.com'),
     ('STUDENT_005', 'John 05', 'Doe', 'firstname.lastname@blah.com'),
     ('STUDENT_006', 'John 06', 'Doe', 'firstname.lastname@blah.com'),
     ('STUDENT_007', 'John 07', 'Doe', 'firstname.lastname@blah.com'),
