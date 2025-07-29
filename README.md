@@ -33,17 +33,19 @@
     For this project, I'll implement 2 tables to help manage students' grades
 
     CREATE TABLE Students (
-    student_id INTEGER PRIMARY KEY AUTOINCREMENT,
+    student_id TEXT PRIMARY KEY,
     first_name TEXT NOT NULL,
     last_name TEXT NOT NULL,
-    email TEXT UNIQUE
+    email TEXT
 );
 
-CREATE TABLE Grades (
-    grade_id INTEGER PRIMARY KEY AUTOINCREMENT,
-    student_id INTEGER NOT NULL,
-    subject TEXT NOT NULL,
-    score REAL NOT NULL,
+CREATE TABLE TestScores (
+    testscore_id TEXT PRIMARY KEY,
+    test_title TEXT NOT NULL
+    student_id TEXT NOT NULL,
+    test_category TEXT NOT NULL,
+    score REAL,
+    date_taken TEXT,
     FOREIGN KEY (student_id) REFERENCES Students(student_id)
 );
 
