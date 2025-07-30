@@ -102,6 +102,18 @@ def main() -> None:
             else:
                 logger.error(f"Unknown option -update ={args.update}")
 
+        if(args.delete):
+            utils_project.set_globalvars_for_project_folders("sql_features") 
+            if(int(args.delete) == 1): 
+                execute_sql_file(connection, utils_project.SQL_SCRIPT_FOLDER.joinpath('delete_01_ap_hist.sql'))
+            elif(int(args.delete) == 2):
+                execute_sql_file(connection, utils_project.SQL_SCRIPT_FOLDER.joinpath('delete_02_ap_physics.sql'))
+            elif(int(args.delete) == 3):
+                execute_sql_file(connection, utils_project.SQL_SCRIPT_FOLDER.joinpath('delete_03_based_on_date_taken.sql'))                
+            else:
+                logger.error(f"Unknown option -update ={args.update}")
+
+
         logger.info("Feature queries execution completed successfully.")
     except Exception as e:
         logger.error(f"Error during feature queries execution: {e}")
