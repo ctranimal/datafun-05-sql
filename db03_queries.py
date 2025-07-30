@@ -11,6 +11,7 @@ import sqlite3
 import os
 import pathlib
 import argparse   ## to parse argument for command-line 
+import time
 
 # Import local modules
 from utils_logger import logger
@@ -32,12 +33,17 @@ def execute_sql_file(connection, file_path) -> None:
         connection (sqlite3.Connection): SQLite connection object.
         file_path (str): Path to the SQL file to be executed.
     """
+    cursor = connection.cursor()
     try:
         with open(file_path, 'r') as file:
             sql_script: str = file.read()
         with connection:
-            connection.executescript(sql_script)
+            cursor.execute(sql_script)
             logger.info(f"Executed: {file_path}")
+            result = cursor.fetchall()
+            logger.info("*************************\n")
+            logger.info(f"Query returned:{result}")
+            logger.info("*************************\n")
     except Exception as e:
         logger.error(f"Failed to execute {file_path}: {e}")
         raise
@@ -76,6 +82,7 @@ def main() -> None:
     try:
         connection = sqlite3.connect(utils_project.DB_PATH)
         logger.info(f"Connected to database: {utils_project.DB_PATH}")
+        start_time = time.time()
 
         # Execute all SQL files in the sql_features folder
         #for sql_file in sorted(utils_project.SQL_SCRIPT_FOLDER.glob("*.sql")):
@@ -110,6 +117,9 @@ def main() -> None:
     except Exception as e:
         logger.error(f"Error during feature queries execution: {e}")
     finally:
+
+        #logger.info("--- %s micro seconds ---",  time.time() - start_time)
+        #logger.info(cursor.fetchall())
         connection.close()
         logger.info("Database connection closed.")
 

@@ -76,4 +76,4 @@
         a. python3 db01_setup.py
         b. python3 db02_features.py
         c. db03_queries.py
-        
+### Please read the document tran_demo.ipynb to see the results of running various scripts db01_setup.py, db02_features.py and db03_queries.py
