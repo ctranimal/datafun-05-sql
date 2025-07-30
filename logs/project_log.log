@@ -576,3 +576,23 @@
 2025-07-29 10:48:53.020 | INFO     | __main__:main:122 - Global vars ROOT_DIR: /Users/canhtran/Repos/datafun-05-sql
 2025-07-29 10:48:53.021 | INFO     | __main__:main:123 - Global vars DB_PATH: /Users/canhtran/Repos/datafun-05-sql/database/tran_project05_database.db
 2025-07-29 10:48:53.025 | INFO     | __main__:execute_sql_file:112 - Executed: /Users/canhtran/Repos/datafun-05-sql/sql_create/01_drop_tables.sql
+2025-07-30 08:49:36.127 | INFO     | utils_logger:<module>:41 - Logging to file: logs/project_log.log
+2025-07-30 08:49:36.128 | INFO     | __main__:main:55 - Starting database setup...
+2025-07-30 08:49:36.128 | INFO     | utils_project:set_globalvars_for_project_folders:49 -  * set_globalvars_for_project_folders() is called, sql_script_folder=sql_create
+2025-07-30 08:49:36.129 | INFO     | __main__:main:59 - Global vars ROOT_DIR: /Users/canhtran/Repos/datafun-05-sql
+2025-07-30 08:49:36.129 | INFO     | __main__:main:60 - Global vars DB_PATH: /Users/canhtran/Repos/datafun-05-sql/database/tran_project05_database.db
+2025-07-30 08:49:36.130 | INFO     | __main__:main:67 - Connected to database: /Users/canhtran/Repos/datafun-05-sql/database/tran_project05_database.db
+2025-07-30 08:49:36.136 | INFO     | __main__:execute_sql_file:43 - Executed: /Users/canhtran/Repos/datafun-05-sql/sql_create/01_drop_tables.sql
+2025-07-30 08:49:36.140 | INFO     | __main__:execute_sql_file:43 - Executed: /Users/canhtran/Repos/datafun-05-sql/sql_create/02_create_tables.sql
+2025-07-30 08:49:36.145 | INFO     | __main__:execute_sql_file:43 - Executed: /Users/canhtran/Repos/datafun-05-sql/sql_create/03_insert_records.sql
+2025-07-30 08:49:36.145 | INFO     | __main__:main:75 - Database setup completed successfully.
+2025-07-30 08:49:36.146 | INFO     | __main__:main:80 - Database connection closed.
+2025-07-30 08:55:03.743 | INFO     | utils_logger:<module>:41 - Logging to file: logs/project_log.log
+2025-07-30 08:55:03.743 | INFO     | __main__:main:51 - Starting feature queries execution...
+2025-07-30 08:55:03.743 | INFO     | utils_project:set_globalvars_for_project_folders:49 -  * set_globalvars_for_project_folders() is called, sql_script_folder=sql_features
+2025-07-30 08:55:03.744 | INFO     | __main__:main:55 - Global vars ROOT_DIR: /Users/canhtran/Repos/datafun-05-sql
+2025-07-30 08:55:03.744 | INFO     | __main__:main:56 - Global vars DB_PATH: /Users/canhtran/Repos/datafun-05-sql/database/tran_project05_database.db
+2025-07-30 08:55:03.745 | INFO     | __main__:main:66 - Connected to database: /Users/canhtran/Repos/datafun-05-sql/database/tran_project05_database.db
+2025-07-30 08:55:03.747 | INFO     | __main__:execute_sql_file:39 - Executed: /Users/canhtran/Repos/datafun-05-sql/sql_features/add_to_students_yearborn.sql
+2025-07-30 08:55:03.748 | INFO     | __main__:main:74 - Feature queries execution completed successfully.
+2025-07-30 08:55:03.748 | INFO     | __main__:main:79 - Database connection closed.
