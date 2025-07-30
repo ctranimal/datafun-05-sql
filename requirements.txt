@@ -104,6 +104,9 @@ loguru
 # Making web requests
 requests
 
+# parse to parse argument 
+argparse
+
 # ======================================================
 # ESSENTIAL TOOLS
 # ======================================================
