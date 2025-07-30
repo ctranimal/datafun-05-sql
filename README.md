@@ -37,9 +37,7 @@
     first_name TEXT NOT NULL,
     last_name TEXT NOT NULL,
     email TEXT
-);
-
-CREATE TABLE TestScores (
+) CREATE TABLE TestScores (
     testscore_id TEXT PRIMARY KEY,
     test_title TEXT NOT NULL
     student_id TEXT NOT NULL,
@@ -47,17 +45,35 @@ CREATE TABLE TestScores (
     score REAL,
     date_taken TEXT,
     FOREIGN KEY (student_id) REFERENCES Students(student_id)
-);
-
-
-Explanation
-Students Table:
-     student_id: This column serves as the primary key and automatically increments, ensuring each student has a unique identifier.
+)
+## Explanation
+### Students Table:
+    student_id: This column serves as the primary key, must be unique
     first_name: Stores the student's first name, required (NOT NULL).
     last_name: Stores the student's last name, also required.
     email: Stores the student's email address and is set to be unique (UNIQUE), preventing duplicate email entries.
-Grades Table:
-    grade_id: The primary key for the grades table, automatically incrementing.
-    student_id: This column is a foreign key, establishing a relationship with the Students table. It links a grade to a specific student. The FOREIGN KEY (student_id) REFERENCES Students(student_id) clause ensures data integrity, meaning you can't enter a grade for a non-existent student.
-    subject: Stores the name of the subject the grade is for.
+### TestScores Table:
+    testscore_id: The primary key for the TestScores table, must be unique.
+    test_title: This column describe, via a title, which type of test it is, example: AP Biology etc ..., required (Not Null)
+    student_id: This column is a foreign key, establishing a relationship with the Students table, required (Not Null)
+    test_category: This coloumn describes which type of tests: SAT, AP etc ..., required (Not Null)
     score: Stores the numerical grade, defined as a real number (REAL) to accommodate decimal grades.
+    year_taken: Noted the year the test was taken.
+
+## Folders structure of the project:
+### data folder: 
+    1. Contain students.csv with 10 rows representing students
+    2. testscores.csv with 40+ rows of test scores data
+### database folder:
+    contain the sqlite database for this project
+### sample_codes folder:
+    contain sample, starter-code provided by the instructor
+### sql_create, sql_features and sql_queries:
+    contain the sql calls that implement various requirements for this project.
+### the main scripts db*.py script and tran_testscore_manager.py script
+    1. provide for ways to invoke the SQL stored procedures in sql_create, sql_features and sql_queries folders.
+    2. On a terminal windows on Mac, after following instructions (in above sections) for creating .venv and installing various required packages, here're the instructions to launch these scripts:
+        a. python3 db01_setup.py
+        b. python3 db02_features.py
+        c. db03_queries.py
+        
